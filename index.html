@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>SAN v2 and Embodied Companion Image Set</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172033;
+      --muted: #5a6475;
+      --line: #cdd3dc;
+      --paper: #ffffff;
+      --canvas: #eef0f2;
+      --san: #164f8c;
+      --companion: #7a3722;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--canvas);
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 0;
+    }
+
+    header {
+      padding: 36px 28px 30px;
+      color: #fff;
+      background: #172033;
+    }
+
+    header > div, main, footer {
+      width: min(1320px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 4vw, 46px);
+      line-height: 1.08;
+    }
+
+    header p {
+      max-width: 850px;
+      margin: 0;
+      color: #d9dee7;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+
+    header a { color: #fff; }
+
+    main { padding: 30px 0 50px; }
+
+    section {
+      margin: 0 0 44px;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 20px;
+      margin: 0 0 16px;
+      padding: 0 0 12px;
+      border-bottom: 3px solid var(--san);
+    }
+
+    section.companion .section-heading { border-color: var(--companion); }
+
+    h2 {
+      margin: 0;
+      font-size: 25px;
+    }
+
+    .count {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    figure {
+      margin: 0;
+      padding: 22px 0 28px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    figure:last-child { border-bottom: 0; }
+
+    figure a {
+      display: block;
+      background: var(--paper);
+      border: 1px solid #b9c0ca;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      display: grid;
+      grid-template-columns: minmax(250px, 0.45fr) 1fr;
+      gap: 24px;
+      padding-top: 13px;
+      line-height: 1.45;
+    }
+
+    figcaption strong { font-size: 17px; }
+    figcaption span { color: var(--muted); }
+
+    footer {
+      padding: 0 0 36px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      header { padding: 28px 20px 24px; }
+      header > div, main, footer { width: min(100% - 24px, 1320px); }
+      .section-heading { align-items: flex-start; flex-direction: column; gap: 4px; }
+      figcaption { grid-template-columns: 1fr; gap: 5px; }
+      figure { padding-top: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>SAN v2 and Embodied Companion Image Set</h1>
+      <p>Fifteen selected medical-textbook-style figures for <a href="https://doi.org/10.5281/zenodo.21329627">Self-Aware Networks v2</a> and <a href="https://doi.org/10.5281/zenodo.21329755">Embodied Neural Rendering in Self-Aware Networks</a>. Select any image to open the full-resolution PNG.</p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="section-heading">
+        <h2>SAN v2 Core</h2>
+        <span class="count">8 figures</span>
+      </div>
+
+      <figure>
+        <a href="01-san-v2-core/01-napot-neural-array-projection-oscillation-tomography.png"><img src="01-san-v2-core/01-napot-neural-array-projection-oscillation-tomography.png" alt="NAPOT neural array projection oscillation tomography diagram"></a>
+        <figcaption><strong>NAPOT</strong><span>Convergence into a biological rendering neuron followed by divergent projection into child arrays.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="01-san-v2-core/02-oca-oscillatory-computational-agency.png"><img src="01-san-v2-core/02-oca-oscillatory-computational-agency.png" alt="Oscillatory computational agency diagram"></a>
+        <figcaption><strong>Oscillatory Computational Agency</strong><span>Phase aggregation, signal synchronization, entification, and entropic dissipation.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="01-san-v2-core/03-bot-biological-oscillating-tomography.png"><img src="01-san-v2-core/03-bot-biological-oscillating-tomography.png" alt="Biological oscillating tomography diagram"></a>
+        <figcaption><strong>Biological Oscillating Tomography</strong><span>The transition from phase misalignment through dissipation to a synchronized manifold state.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="01-san-v2-core/04-cot-cellular-oscillating-tomography.png"><img src="01-san-v2-core/04-cot-cellular-oscillating-tomography.png" alt="Cellular oscillating tomography diagram"></a>
+        <figcaption><strong>Cellular Oscillating Tomography</strong><span>Cell-scale oscillatory sensing, transformation, and projection in a biological substrate.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="01-san-v2-core/05-gcs-gamma-consideration-sandwich.png"><img src="01-san-v2-core/05-gcs-gamma-consideration-sandwich.png" alt="Gamma consideration sandwich cortical layers diagram"></a>
+        <figcaption><strong>Gamma Consideration Sandwich</strong><span>Layered alpha/beta, gamma, theta, sensory, and motor feedback within cortical circuitry.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="01-san-v2-core/06-tcnr-tomographic-coherence-neural-rendering.png"><img src="01-san-v2-core/06-tcnr-tomographic-coherence-neural-rendering.png" alt="Tomographic coherence neural rendering diagram"></a>
+        <figcaption><strong>Tomographic Coherence Neural Rendering</strong><span>Recurrent coherence across distributed arrays constructing a stable rendered scene.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="01-san-v2-core/07-cortical-traveling-waves-pwd-napot-readout.png"><img src="01-san-v2-core/07-cortical-traveling-waves-pwd-napot-readout.png" alt="Cortical traveling waves and NAPOT readout diagram"></a>
+        <figcaption><strong>Cortical Traveling Waves</strong><span>Phase-wave differentials propagate through cortex and become a structured NAPOT readout.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="01-san-v2-core/08-biological-computation-substrate-participates.png"><img src="01-san-v2-core/08-biological-computation-substrate-participates.png" alt="Biological computation substrate participation diagram"></a>
+        <figcaption><strong>Biological Computation</strong><span>Molecular, cellular, circuit, and whole-brain scales participate in the computation.</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="companion">
+      <div class="section-heading">
+        <h2>Embodied Neural Rendering Companion</h2>
+        <span class="count">7 figures</span>
+      </div>
+
+      <figure>
+        <a href="02-embodied-companion/01-sight-active-recurrent-render.png"><img src="02-embodied-companion/01-sight-active-recurrent-render.png" alt="Sight as active recurrent rendering diagram"></a>
+        <figcaption><strong>Sight as Active Recurrent Rendering</strong><span>Retinal input enters a feedback-dominant hierarchy that constructs and updates a 3D scene.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="02-embodied-companion/02-dendritic-radial-basis-rendering.png"><img src="02-embodied-companion/02-dendritic-radial-basis-rendering.png" alt="Dendritic radial basis rendering diagram"></a>
+        <figcaption><strong>Dendritic Radial-Basis Rendering</strong><span>Basal reception, somatic integration, and apical or axonal broadcast shown as biological operations.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="02-embodied-companion/03-embodied-gamma-consideration-sandwich.png"><img src="02-embodied-companion/03-embodied-gamma-consideration-sandwich.png" alt="Embodied gamma consideration sandwich diagram"></a>
+        <figcaption><strong>Embodied Gamma Consideration Sandwich</strong><span>Bottom-up gamma ink, top-down stencil, and proprioceptive mismatch correction in one loop.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="02-embodied-companion/04-body-maps-without-inner-homunculus.png"><img src="02-embodied-companion/04-body-maps-without-inner-homunculus.png" alt="Distributed body maps without an inner homunculus diagram"></a>
+        <figcaption><strong>Body Maps Without an Inner Homunculus</strong><span>Distributed sensory and motor maps coordinate embodied action without a single internal observer.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="02-embodied-companion/05-frequency-transition-vs-harmonic-confound.png"><img src="02-embodied-companion/05-frequency-transition-vs-harmonic-confound.png" alt="Frequency transition versus harmonic confound diagram"></a>
+        <figcaption><strong>Frequency Transition vs. Harmonic Confound</strong><span>A testable distinction between a true cross-frequency transition and spectral harmonics.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="02-embodied-companion/06-san-embodiment-gcs-napot-genealogy.png"><img src="02-embodied-companion/06-san-embodiment-gcs-napot-genealogy.png" alt="SAN embodiment GCS and NAPOT genealogy timeline"></a>
+        <figcaption><strong>SAN Embodiment, GCS, and NAPOT Genealogy</strong><span>Dated development of the embodied rendering architecture and its component concepts.</span></figcaption>
+      </figure>
+      <figure>
+        <a href="02-embodied-companion/07-hedger-body-map-bounded-convergence.png"><img src="02-embodied-companion/07-hedger-body-map-bounded-convergence.png" alt="Hedger and SAN body map bounded convergence comparison"></a>
+        <figcaption><strong>Body-Map Bounded Convergence</strong><span>A two-column comparison of overlapping body-map claims while preserving scope and chronology.</span></figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>Curated copies only. See README.md for every original source path.</footer>
+</body>
+</html>
